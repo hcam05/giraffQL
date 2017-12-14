@@ -93,6 +93,7 @@ describe('Functionality', () => {
     expect(jestMock).toHaveBeenCalled();
   });
 
+<<<<<<< HEAD
   it('handleMouseDown fires when clicked', () => {
     vis.simulate('mouseDown');
     expect(jestMock).toHaveBeenCalled();
@@ -102,5 +103,16 @@ describe('Functionality', () => {
     vis.simulate('mouseup');
     expect(jestMock).toHaveBeenCalled();
   });
+=======
+  // it('handleMouseDown fires when clicked', () => {
+  //   vis.simulate('mouseDown');
+  //   expect(jestMock).toHaveBeenCalled();
+  // });
+
+  // it('handleMouseUp fires when clicked', () => {
+  //   vis.simulate('mouseup');
+  //   expect(jestMock).toHaveBeenCalled();
+  // });
+>>>>>>> org/master
 
 })
